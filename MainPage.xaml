@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Counter.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Click to add or subtract from counter" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Grid Margin="0,0,0,0" BackgroundColor="#2196F3" Padding="40">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.5*" />
+                <ColumnDefinition Width="0.5*" />
+            </Grid.ColumnDefinitions>
+            
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />
+                <RowDefinition Height="50" />                
+            </Grid.RowDefinitions>            
+            
+            <Button Text="+1"
+                    Clicked="PlusOne"
+                    BackgroundColor="Black"
+                    CornerRadius="7"
+                    HorizontalOptions="Center"                    
+                    TextColor="White"/>
+            
+            <Button Grid.Column="1"
+                    Clicked="MinusOne"
+                    BackgroundColor="Black"
+                    CornerRadius="7"
+                    HorizontalOptions="Center" 
+                    TextColor="White"
+                    Text="-1" />
+            
+            <Button Grid.Row="1"
+                    Clicked="PlusFive"
+                    BackgroundColor="Black"
+                    CornerRadius="7"
+                    HorizontalOptions="Center" 
+                    TextColor="White"
+                    Text="+5" />
+            
+            <Button Grid.Column="1"
+                    Grid.Row="1"
+                    Clicked="MinusFive"
+                    BackgroundColor="Black"
+                    CornerRadius="7"
+                    HorizontalOptions="Center" 
+                    TextColor="White"
+                    Text="-5" />
+
+            <Button Grid.Row="2"
+                    Clicked="PlusTen"
+                    BackgroundColor="Black"
+                    CornerRadius="7"
+                    HorizontalOptions="Center" 
+                    TextColor="White"
+                    Text="+10" />
+
+            <Button Grid.Column="1"
+                    Grid.Row="2"
+                    Clicked="MinusTen"
+                    BackgroundColor="Black"
+                    CornerRadius="7"
+                    HorizontalOptions="Center" 
+                    TextColor="White"
+                    Text="-10" />
+        </Grid>
+      
+        <Frame HeightRequest="40"
+               WidthRequest="10">
+            
+            <Label x:Name="CounterWindow"
+                   Margin="90,0,90,0"
+                   LineHeight="35"
+                   FontAttributes="Bold"
+                   HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center"
+                   FontSize="24"
+                   BackgroundColor="#2196F3"
+                   Text="Amount" />
+
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,14 @@
+P:\School Projects\IT391\Week10\Counter\Counter\bin\Debug\netstandard2.0\Counter.deps.json
+P:\School Projects\IT391\Week10\Counter\Counter\bin\Debug\netstandard2.0\Counter.dll
+P:\School Projects\IT391\Week10\Counter\Counter\bin\Debug\netstandard2.0\ref\Counter.dll
+P:\School Projects\IT391\Week10\Counter\Counter\bin\Debug\netstandard2.0\Counter.pdb
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\App.xaml.g.cs
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\Counter.AssemblyInfoInputs.cache
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\Counter.AssemblyInfo.cs
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\Counter.csproj.CoreCompileInputs.cache
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\XamlC.stamp
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\Counter.dll
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\ref\Counter.dll
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\Counter.pdb
+P:\School Projects\IT391\Week10\Counter\Counter\obj\Debug\netstandard2.0\Counter.csprojAssemblyReference.cache
